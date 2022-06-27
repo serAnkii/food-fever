@@ -1,8 +1,8 @@
 import React from "react";
+import { ConnectButton } from "web3uikit";
 
 export function Sidebar() {
     return (
-
-        <h1>sidebar</h1>
+        <ConnectButton/>
     );
 }
